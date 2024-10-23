@@ -524,7 +524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3d33859198a8b7418cb2a504381bcab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 10
+  rotationSpeed: 15
 --- !u!135 &151416418
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -708,6 +708,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 279219764}
+  - component: {fileID: 279219765}
   m_Layer: 0
   m_Name: urano
   m_TagString: Untagged
@@ -724,7 +725,7 @@ Transform:
   m_GameObject: {fileID: 279219763}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.96, y: 0, z: 4.92}
+  m_LocalPosition: {x: -8.219999, y: 0, z: 4.92}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -732,6 +733,22 @@ Transform:
   - {fileID: 1038596808}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &279219765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279219763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4830a449eec32f54bb13152f36f9c422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  earth: {fileID: 571182236}
+  orbitSpeed: 30
+  orbitDistance: 30
+  rotationSpeed: 10
 --- !u!1 &285570137
 GameObject:
   m_ObjectHideFlags: 0
@@ -1696,6 +1713,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 650574952}
+  - component: {fileID: 650574953}
   m_Layer: 0
   m_Name: Venus
   m_TagString: Untagged
@@ -1720,6 +1738,22 @@ Transform:
   - {fileID: 1357446120}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &650574953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650574951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4830a449eec32f54bb13152f36f9c422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  earth: {fileID: 571182236}
+  orbitSpeed: 15
+  orbitDistance: 15
+  rotationSpeed: 10
 --- !u!1 &672428289
 GameObject:
   m_ObjectHideFlags: 0
@@ -2712,7 +2746,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Planeta Tierra
+  m_text: Planeta Mercurio
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3015,6 +3049,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 492ff1bf236356647a680ff4dc408b96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: 5
+  dialogBubble: {fileID: 0}
 --- !u!114 &1096552540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3027,6 +3063,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3d33859198a8b7418cb2a504381bcab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotationSpeed: 10
 --- !u!135 &1096552541
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3068,7 +3105,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 70274f0e91dec7d4b8eff6f6b2c7284a, type: 2}
+  - {fileID: 2100000, guid: 996e9ce2753fc44478d444af44297c92, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3715,6 +3752,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1369137345}
+  - component: {fileID: 1369137346}
   m_Layer: 0
   m_Name: Tierra
   m_TagString: Untagged
@@ -3740,6 +3778,22 @@ Transform:
   - {fileID: 592082555}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1369137346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369137344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4830a449eec32f54bb13152f36f9c422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  earth: {fileID: 571182236}
+  orbitSpeed: 20
+  orbitDistance: 20
+  rotationSpeed: 10
 --- !u!1 &1387010615
 GameObject:
   m_ObjectHideFlags: 0
@@ -8616,6 +8670,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 492ff1bf236356647a680ff4dc408b96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: 
+  dialogBubble: {fileID: 0}
 --- !u!114 &1396298149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8628,6 +8684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3d33859198a8b7418cb2a504381bcab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotationSpeed: 2
 --- !u!135 &1396298150
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8708,6 +8765,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1404151272}
+  - component: {fileID: 1404151273}
   m_Layer: 0
   m_Name: Mercurio
   m_TagString: Untagged
@@ -8732,6 +8790,22 @@ Transform:
   - {fileID: 234476392}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1404151273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404151271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4830a449eec32f54bb13152f36f9c422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  earth: {fileID: 571182236}
+  orbitSpeed: 10
+  orbitDistance: 10
+  rotationSpeed: 10
 --- !u!1 &1414286509 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2305158326965435992, guid: 2d011a1e2f0a03d42a42539eb800c7d6, type: 3}
@@ -8938,7 +9012,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Planeta Tierra
+  m_text: 'Planeta Venus
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9098,7 +9174,7 @@ Transform:
   m_GameObject: {fileID: 6024344666349815459}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.74, y: 0, z: 4.92}
+  m_LocalPosition: {x: -5, y: 0, z: 4.92}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9248,6 +9324,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2247624063407416088}
+  - component: {fileID: 6024344666349815460}
   m_Layer: 0
   m_Name: Saturno
   m_TagString: Untagged
@@ -9255,6 +9332,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6024344666349815460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6024344666349815459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4830a449eec32f54bb13152f36f9c422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  earth: {fileID: 571182236}
+  orbitSpeed: 25
+  orbitDistance: 25
+  rotationSpeed: 10
 --- !u!1 &6162717086530500479
 GameObject:
   m_ObjectHideFlags: 0
@@ -9323,7 +9416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3d33859198a8b7418cb2a504381bcab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 10
+  rotationSpeed: 20
 --- !u!114 &7514437430793624556
 MonoBehaviour:
   m_ObjectHideFlags: 0
