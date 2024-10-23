@@ -3016,7 +3016,7 @@ GameObject:
   - component: {fileID: 1096552540}
   - component: {fileID: 1096552539}
   m_Layer: 5
-  m_Name: Tierra
+  m_Name: Planeta
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3050,7 +3050,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: 5
-  dialogBubble: {fileID: 0}
+  dialogBubble: {fileID: 1357446119}
 --- !u!114 &1096552540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8637,7 +8637,7 @@ GameObject:
   - component: {fileID: 1396298149}
   - component: {fileID: 1396298148}
   m_Layer: 5
-  m_Name: Tierra
+  m_Name: Planeta
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8671,7 +8671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: 
-  dialogBubble: {fileID: 0}
+  dialogBubble: {fileID: 234476391}
 --- !u!114 &1396298149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8726,7 +8726,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 70274f0e91dec7d4b8eff6f6b2c7284a, type: 2}
+  - {fileID: 2100000, guid: 4c44fa03c2b6f014aa0419d68377c3fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
